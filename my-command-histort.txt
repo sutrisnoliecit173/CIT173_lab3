@@ -1,0 +1,158 @@
+    1  ls
+    2  cd ~/
+    3  cd cit173_lab2_files
+    4  cat phonebook1.txt phonebook2.txt > my-phonebook.txt
+    5  ls
+    6  ls -1
+    7  ls
+    8  wc my-phonebook.txt
+    9  ls -1
+   10  wc my-phonebook.txt
+   11  cat my-phonebook.txt | less
+   12  cat  phonelisting1.txt phonelisting2.txt > my-phonelisting.txt
+   13  tac my-phonebook.txt > my-phonebook-reverse.txt
+   14  join my-phonebook.txt my-phonelisting.txt > my-joined-phonebook.txt
+   15  man unexpand
+   16  unexpand my-phonebook.txt > my-tabbed-phonebook.txt
+   17  sort my-phonebook.txt > my-sorted-phonebook.txt
+   18  nl my-phonebook.txt > my-numbered-phonebook.txt
+   19  head
+   20  head my-phonebook.txt > my-head-phonebook.txt
+   21  tail my-phonebook.txt > my-tail-phonebook.txt
+   22  history > my-command-history.txt
+   23  git init
+   24  git remote add origin https://github.com/sutrisnoliecit173/cit173_lab2.git
+   25  git add --all
+   26  git commit -m "initial commit."
+   27  git remote add origin https://github.com/Sutrisnoliecit173/cit173_lab2.git
+   28  rm -rf .git
+   29  git init
+   30  git remote add origin https://github.com/Sutrisnoliecit173/cit173_lab2.git
+   31  git add --all
+   32  git commit -m "my lab2."
+   33  git config --global user.email "triscasmel@yahoo.com"
+   34  git config --global user.name "Sutrisnoliecit173"
+   35  git add --all
+   36  git commit -m "my lab2"
+   37  git push origin master
+   38  pwd
+   39  cd ~/
+   40  whoam1
+   41  whoami
+   42  su
+   43  sudo -i
+   44  pwd
+   45  ps -a | less
+   46  ps -A
+   47  top
+   48  clear
+   49  mkdir CIT173_lab3
+   50  ls
+   51  cd CIT173_lab3
+   52  cd ~/
+   53  CD CIT173_lab3
+   54  cd CIT173_lab3 
+   55  git clone https://github.com/RenoTechnologyAcademy/CIT173_lab3_files.git
+   56  sudo tar -xvf ~/CIT173_lab3_files/phonebook.tar.gz
+   57  sudo tar -xvf CIT173_lab3_files/phonebook.tar.gz
+   58  ls
+   59  cat CIT173_lab3/phonebook1.txt
+   60  cat phonebook1.txt
+   61  man sed
+   62  ls
+   63  ls CIT173_lab3_files
+   64  ls
+   65  cd ..
+   66  ls
+   67  cd CIT173_lab3
+   68  ls
+   69  cat CIT173_lab3_files
+   70  cd CIT173_lab3_files
+   71  ls
+   72  cat ~/CIT173_lab3/phonebook1.txt
+   73  ls
+   74  cd CIT173_lab3
+   75  cd ..
+   76  ls
+   77  man apt
+   78  apt list
+   79  ls
+   80  cat phonebook1.txt
+   81  sudo cat phonebook1.txt
+   82  sed 's/575/775/g' phonebook1.txt
+   83  sudo sed 's/575/775/g' phonebook1.txt
+   84  sudo sed 's/575/775/g' phonebook2.txt
+   85  cat phonebook1.txt phonebook2.txt > my-phonebook.txt
+   86  sudo cat phonebook1.txt phonebook2.txt > my-phonebook.txt
+   87  ls
+   88  cat my-phonebook.txt
+   89  ls
+   90  man ls
+   91  ls -a
+   92  ls
+   93  man ls
+   94  ls -a
+   95  ls -a > my-files.txt
+   96  ls
+   97  cat my-files.txt
+   98  apt install python3-minimal
+   99  sudo apt install python3-minimal
+  100  apt list --installed
+  101  apt install python3-minimal
+  102  sudo apt install python3-minimal
+  103  man apt
+  104  apt list python3-minimal > my-installed-1.txt
+  105  ls
+  106  cat my-installed-1.txt
+  107  rm -f my-installed-1.txt
+  108  ls
+  109  man apt
+  110  apt list --installed > my-installed-1.txt
+  111  ls
+  112  cat my-installed-1.txt
+  113  cd ..
+  114  ls
+  115  cd /CIT173_lab3
+  116  cd ~/CIT173_lab3
+  117  ls
+  118  cd ~/CIT173_lab3_files
+  119  cd CIT173_lab3_files
+  120  python3-minimal hello.py
+  121  ls
+  122  python3 hello.py
+  123  python3 hello.py > ~/CIT173_lab3/my-python-output.txt
+  124  ls
+  125  python3 infinite &
+  126  python3 infinite.py &
+  127  ps
+  128  ps -a > ~CIT173_lab3/my-processes-1.txt
+  129  ps -a > ~/CIT173_lab3/my-processes-1.txt
+  130  jobs
+  131  kill 4911
+  132  ps -a > ~CIT173_lab3/my-processes-2.txt
+  133  ps -a > ~/CIT173_lab3/my-processes-2.txt
+  134  apt uninstalled python3-minimal
+  135  apt uninstall python3-minimal
+  136  sudo apt uninstalled python3-minimal
+  137  sudo apt uninstall python3-minimal
+  138  sudo apt uninstalled python3-minimal
+  139  apt uninstalled python3-minimal
+  140  apt uninstall python3-minimal
+  141  sudo apt remove python3-minimal
+  142  man apt
+  143  apt --list
+  144  apt list --install
+  145  apt list --installed
+  146  apt list --installed > ~/CIT173_lab3/myinstalled-2.txt
+  147  ls
+  148  cd ..
+  149  ls
+  150  cd /CIT173_lab3_files
+  151  cd ~/CIT173_lab3_files
+  152  cd /CIT173_lab3_files
+  153  ls
+  154  cd /CIT173_lab3_files
+  155  cd ~/CIT173_lab3_files
+  156  cd CIT173_lab3_files
+  157  history > ~CIT173_lab3/my-command-histort.txt
+  158  history > ~/CIT173_lab3/my-command-histort.txt
